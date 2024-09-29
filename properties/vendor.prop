@@ -1,6 +1,10 @@
 # Audio
 ro.hardware.audio.primary=taro-mondrian
 
+# Fingerprint
+persist.vendor.fingerprint.type=udfps_optical
+persist.vendor.fingerprint.sensor_location=720|2882|124
+
 # Sensors
 ro.vendor.sensors.xiaomi.udfps=true
 
