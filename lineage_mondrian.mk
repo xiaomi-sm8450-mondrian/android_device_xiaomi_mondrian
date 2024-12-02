@@ -27,3 +27,19 @@ PRODUCT_SYSTEM_DEVICE := mondrian
 BUILD_FINGERPRINT := POCO/mondrian_global/mondrian:14/UKQ1.230804.001/V816.0.10.0.UMNMIXM:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# RisingOS stuff
+PRODUCT_BUILD_PROP_OVERRIDES += \
+RisingChipset="Snapdragon 8+ Gen1" \
+RisingMaintainer="keosh"
+RISING_PACKAGE_TYPE := GAPPS
+TARGET_CORE_GMS := true
+TARGET_CORE_GMS_EXTRAS := true
+TARGET_ENABLE_BLUR := true
+PRODUCT_NO_CAMERA := false
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+# RisingOS GMS build flags
+WITH_GMS := true
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
