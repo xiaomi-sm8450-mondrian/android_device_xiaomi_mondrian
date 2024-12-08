@@ -15,6 +15,8 @@ include vendor/xiaomi/mondrian/BoardConfigVendor.mk
 
 DEVICE_PATH := device/xiaomi/mondrian
 
+BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
+
 # Kernel
 device_second_stage_modules := \
     goodix_fod.ko \
