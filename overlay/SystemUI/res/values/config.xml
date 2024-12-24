@@ -13,8 +13,5 @@
 
     <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
     <integer name="config_aodMaxRefreshRate">60</integer>
-    
-    <!-- Whether device supports increased touch sensitvity -->
-    <bool name="config_supportTouchPollingMode">true</bool>
 
 </resources>
