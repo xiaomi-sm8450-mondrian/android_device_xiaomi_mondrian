@@ -29,6 +29,7 @@ SPAMMY_LOG_TAGS := \
     SRE \
     WifiHAL \
     cnss-daemon \
+    SensorService \
     libcitsensorservice@2.0-impl \
     libsensor-displayalgo \
     libsensor-parseRGB \
