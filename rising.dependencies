@@ -1,0 +1,62 @@
+[
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/android_device_xiaomi_mondrian",
+        "target_path"  : "device/xiaomi/mondrian",
+        "branch"       : "lineage-22.1"
+    },
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/android_device_xiaomi_sm8450-common",
+        "target_path"  : "device/xiaomi/sm8450-common",
+        "branch"       : "lineage-22.1"
+    },
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/vendor_xiaomi_mondrian",
+        "target_path"  : "vendor/xiaomi/mondrian",
+        "branch"       : "fuck"
+    },
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/proprietary_vendor_xiaomi_sm8450-common",
+        "target_path"  : "vendor/xiaomi/sm8450-common",
+        "branch"       : "fuck"
+    },
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/android_device_xiaomi_miuicamera-mondrian",
+        "target_path"  : "device/xiaomi/miuicamera-mondrian",
+        "branch"       : "lineage-22.1"
+    },
+    { 
+        "remote"       : "gitlab",
+        "repository"   : "keosh/new-vendor-xiaomi-miuicamera-mondrian",
+        "target_path"  : "vendor/xiaomi/miuicamera-mondrian",
+        "branch"       : "lineage-22.1"
+    },
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/android_hardware_xiaomi_los",
+        "target_path"  : "hardware/xiaomi",
+        "branch"       : "keosh"
+    },
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/android_kernel_xiaomi_sm8450",
+        "target_path"  : "kernel/xiaomi/sm8450",
+        "branch"       : "lineage-22.1"
+    },
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/android_kernel_xiaomi_sm8450-devicetrees",
+        "target_path"  : "kernel/xiaomi/sm8450-devicetrees",
+        "branch"       : "lineage-22.1"
+    },
+    { 
+        "remote"       : "github",
+        "repository"   : "xiaomi-sm8450-mondrian/android_kernel_xiaomi_sm8450-modules",
+        "target_path"  : "kernel/xiaomi/sm8450-modules",
+        "branch"       : "lineage-22.1"
+    }
+]

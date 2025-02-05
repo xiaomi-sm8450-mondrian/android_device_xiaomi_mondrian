@@ -25,6 +25,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # RisingOS stuff
+RISING_MAINTAINER=Keosh
 PRODUCT_BUILD_PROP_OVERRIDES += \
 RisingChipset="Snapdragon 8+ Gen1" \
 RisingMaintainer="keosh"
