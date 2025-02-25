@@ -57,6 +57,12 @@ blob_fixups: blob_fixups_user_type = {
         'libstagefright_foundation.so',
         'libstagefright_foundation-v33.so'
     ),
+    'vendor/lib64/c2.dolby.client.so': blob_fixup().add_needed(
+        'libcodec2_hidl_shim.so'
+    ),				
+    'vendor/lib/c2.dolby.client.so': blob_fixup().add_needed(
+        'libcodec2_hidl_shim.so'
+    ),
     (
         'vendor/lib64/libTrueSight.so',
         'vendor/lib64/libalAILDC.so',
