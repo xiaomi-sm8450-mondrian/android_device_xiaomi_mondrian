@@ -35,15 +35,24 @@ lib_fixups: lib_fixups_user_type = {
         'libagmclient',
         'libagmmixer',
         'vendor.qti.hardware.pal@1.0-impl',
-    ): lib_fixup_remove,
+        'audio.primary.taro',
+    ): lib_fixup_vendor_suffix,
 }
 
 blob_fixups: blob_fixups_user_type = {
 
-        'vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service': blob_fixup()
-            .add_needed('libstagefright_foundation-v33.so'),
-        'vendor/lib64/hw/audio.primary.taro.so': blob_fixup()
-            .replace_needed('libstagefright_foundation.so', 'libstagefright_foundation-v33.so'),
+    (
+        'vendor/bin/hw/dolbycodec2',
+        'vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service',
+    ): blob_fixup()
+        .add_needed('libstagefright_foundation-v33.so'),
+    (
+        'vendor/lib/c2.dolby.client.so',
+        'vendor/lib64/c2.dolby.client.so',
+    ): blob_fixup()
+        .add_needed('libcodec2_hidl_shim.so'),
+    'vendor/lib/libstagefright_softomx.so': blob_fixup()
+        .add_needed('libui_shim.so'),
     (
         'vendor/etc/camera/mondrian_enhance_motiontuning.xml',
         'vendor/etc/camera/mondrian_motiontuning.xml',
